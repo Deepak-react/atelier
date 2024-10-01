@@ -1,0 +1,77 @@
+@media (max-width:1280px){
+    .home-page-first-sec{
+        transform: translate3d(-640px , 3000px , 0px) scale3d(1 , 4 , 1);
+        animation: landing-page-slide1 1.6s ease 2.8s forwards;
+        position: relative;
+        top: 0px;
+        left: 50%;
+        width: 1520px;
+        margin: 125px auto 0rem;
+    }
+
+    @keyframes landing-page-slide1{
+        99%{
+            transform: translate3d(-640px , 0px , 0px) scale3d(1 , 1 , 1);
+        }
+        100%{
+            transform: translate3d(-640px , 0px , 0px) scale3d(1 , 1 , 1);
+        }
+    }
+
+    .container-2{
+        width: 100%;
+    }
+    
+    .discover-us-container{
+        width: 100%;
+    }
+    .header{
+        justify-content: space-around;
+    }
+    .container-fluid{
+        max-width: 1200px;
+    }
+    .how-we-work-container{
+        max-width: 90%;
+    }
+    .content-marketing-card{
+        width: 1100px;
+    }
+    .footer-container{
+        max-width: 1200px;
+    }
+    .home-page-first-sec{
+        width: 100%;
+    }
+    .our-container{
+        width: 100%;
+    }
+    .h-w-w-main-tit::before{
+        top: -140px;
+    }
+    .servi-point-sec-left-box{
+        padding: 2rem;
+    }
+    .srv-sec-tit{
+        font-size: 42.5px;
+        line-height: 53px;
+    }
+    .servi-point-sec-left-box p{
+        font-size: 24px;
+    }
+    .service-detailed-main-img{
+        margin: 0rem auto;
+    }
+
+    .service-detai-cont-card p {
+        text-align: justify;
+    }
+    .serv-banner{
+        width: 100%;
+    }
+    .service-carosoul-cards{
+        width: 357px;
+    }
+
+
+}

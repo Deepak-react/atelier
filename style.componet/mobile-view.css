@@ -1,0 +1,693 @@
+ @media (max-width:700px){
+    .hero-title{
+        width: 100%;
+        font-size: 60px;
+        line-height: 30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .hero-contnt-wrap{
+        width: 100%;
+    }
+    .first-sec-btn{
+        margin-top: 2rem;
+    }
+    .span-container{
+        gap: 10px;
+    }
+    .span-container > *{
+        flex-shrink: 0;
+    }
+    .hero-contnt{
+        margin: 0rem auto;
+        font-size: 18px;
+    }
+    .span-gap{
+        display: none;
+    }
+    .what-we-do-main-img img{
+        object-fit: contain;
+    }
+    .h-w-w-card-img{
+        width: 244px;
+        height: 227px;
+    }
+    .hww-num{
+        display: none;
+    }
+    .h-w-w-main-tit-1{
+        font-family: Nunito, sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 44.2px;
+        width: 100%;
+        margin: 1rem auto 1rem;
+        position: relative;
+    }
+    .content-marketing-card{
+        flex-direction: column;
+        height: fit-content;
+        padding: 1rem;
+        gap: 20px;
+    }
+    .card-sub-tit{
+        width: 113px;
+        height: 34px;
+        font-size: 14px;
+    }
+    .card-date{
+        display: grid;
+        place-content: center;
+        font-size: 12px;
+    }
+
+    .service-btn::before{
+        right: 10px;
+    }
+    .service-btn{
+        width: 144px;
+        height: 42px;
+        font-size: 14px;
+        padding: 10px 25px 10px 15px;
+        display: grid;
+        place-content: center;
+        width: 134px;
+        height: 42px;
+        display: none;
+    }
+    .contact-us-container{
+        width: 100%;
+        margin: 0rem auto;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .contact-us-tit{
+        font-size: 40px;
+        width: fit-content;
+    }
+    .bg-txt-1{
+        font-size: 56px;
+        font-weight: 800;
+        line-height: 3rem;
+    }
+    .form-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 20px;
+        row-gap: 40px;
+        padding-right: 1rem;
+    }
+    .contact-us-part-2 input, .contact-us-part-2 select{
+        border-bottom: 1px solid #f2f2f2;
+        font-size: 15px;
+    }
+    .contact-us-part-1, .contact-us-part-2{
+        padding: 1rem;
+    }
+    .form-btn{
+        font-size: 15px;
+        width: 100px;
+        margin-top: 1rem;
+        height: 40px;
+    }
+    .what-we-do-secondry-tit-1::before{
+        width: 58px;
+        height: 58px;
+        left: -70px;
+    }
+   
+    .contact-us-sec{
+        padding: 2rem 0rem;
+    }
+    .discover-us-container{
+        grid-template-columns: 100%;
+        padding: 1rem 0rem 2rem;
+    }
+    .discover-us-tit{
+        font-size: 50px;
+    }
+    .tit-wraper{
+       width: fit-content;
+       margin-left: 100px;
+    }
+    .secondry-title1::before{
+        width: 58px;
+        height: 58px;
+        left: -70px;
+    }
+    .bg-txt-2{
+        font-size: 90px;
+        z-index: -1;
+    }
+    .main-logo img{
+        object-fit: contain;
+        width: 161px;
+        height: 86px;
+    }
+    .h-w-w-card-tit{
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .hub-btn{
+    border: 2px solid transparent;
+    text-decoration: none;
+    color: white;
+    width: 110px;
+    height: 44px;
+    font-size: 14px;
+    border-radius: 7px;
+    text-align: center;
+    }
+    .home-page-first-sec-left{
+        padding: 1rem;
+    }
+
+    .home-page-first-sec-left p{
+        margin: 0.5rem 0rem;
+        line-height: 25px;
+    }
+    .secondry-title1{
+        font-size: 25px;
+        font-weight: 300;
+    }
+    .header{
+        padding: 0rem 1rem;
+    }
+    .fist-sec-main-tit::after{
+        right: 0px;
+    }
+    
+    .home-page-first-sec{
+        width: 360px;
+        transform: translate3d(-180px, 3000px, 0px) scale3d(1, 4, 1);
+        animation: landing-page-slide1 1.6s ease 2.8s forwards;
+        position: relative;
+        margin: 86px 0px;
+    }
+    .services-sec{
+        background-color: #292930;
+        color: white;
+        position: relative;
+        top: 0px;
+        padding: 9rem 0rem 9rem 0rem;
+        margin-top: 10rem;
+    }
+    @keyframes landing-page-slide1{
+        99%{
+            transform: translate3d(-180px , 0px , 0px) scale3d(1 , 1 , 1);
+        }
+        100%{
+            transform: translate3d(-180px , 0px , 0px) scale3d(1 , 1 , 1);
+        }
+    }
+
+    .fist-sec-main-tit{
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 56.14px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    
+    .first-sec-btn{
+        width: 132.27px;
+        height: 46.14px ;
+        border-radius: 83px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .service-card-tit{
+        font-size: 20px;
+    }
+    .sev-card-cont{
+        font-size: 14px;
+    }
+    .service-card{
+        width: 292px;
+        height: 360px;
+        padding: 30px;
+    }
+    .service-card-btn{
+        width: 100%;
+        font-size: 14px;
+        height: 42px;
+    }
+    .srv-card-icon{
+       width: 100px;
+       height: 100px;
+    }
+    .srv-card-icon img{
+        height: 60px;
+        width: 60px;
+    }
+    .our-container{
+        flex-direction: column;
+        padding: 5rem 0rem 2rem 0rem;
+    }
+    .how-we-work-container{
+        padding: 5rem 0rem 2rem 0rem;
+    }
+    .h-w-w-main-tit::before{
+        width: 48px;
+        height: 48px;
+        top: -100px;
+    }
+    .container-fluid{
+        max-width: 100%;
+    }
+    .rocket-boy .bobules{
+        width: 100px;
+    }
+    .rocket-boy .rocket-boy-inner{
+        width: 330px;
+    }
+    .container-2{
+        width: 100%;
+    }
+    .what-we-do-sec video{
+        width: 100%;
+    }
+    .what-we-do-sec{
+        position: relative;
+        top: 0px;
+    }
+    .what-we-do-secondry-tit{
+        font-size: 25px;
+
+    }
+    .tit-sub{
+        font-size: 12px;
+    }
+    .what-we-do-secondry-tit::before{
+        width: 48px;
+        height: 48px;
+        left: -60px;
+
+    }
+    .top-border-para{
+        padding: 1rem ;
+        text-align: justify;
+        margin-top: 1rem;
+    }
+    .swiper-sec{
+        width: 100%;
+        position: relative;
+        top: 0px;
+
+    }
+    .tit-wraper-2{
+        width: 60%;
+        margin: 0rem auto 0rem;
+        position: relative;
+        transform: translateX(0px);
+    }
+    .what-we-do-secondry-tit-2{
+        font-size: 23px;
+        padding-right: 1rem;
+    }
+    .wht-we-do-main-cont p{
+        font-size: 14px;
+    }
+    .what-we-do-secondry-tit-2::before{
+        width: 58px;
+        height: 58px;
+        left: -70px;
+    }
+    .swiper-sec .swiper-button-next{
+        width: 40px;
+        height: 40px;
+        left: 90%;
+    }
+    .swiper-sec .swiper-button-prev{
+        width: 40px;
+        height: 40px;
+    }
+    .swiper-sec .swiper-button-next, .swiper-sec .swiper-button-prev{
+        top: 18%;
+    }
+    .swiper-sec .swiper-button-prev:after, .swiper-sec .swiper-button-next:after{
+        font-size: 18px;
+    }
+    .swiper{
+        width: 200%;
+        height: 500px;
+    }
+    .reviwers{
+      bottom: 10px;
+    }
+    .reviwers-name{
+        font-size: 20px;
+    }
+    .discover-part-1{
+        padding: 1rem;
+    }
+    .discover-emil{
+        margin-top: 1rem;
+    }
+    .discover-emil, .discover-call-us{
+        font-size: 25px;
+    }
+    .discover-call-us{
+        margin-top: 1rem;
+    }
+    .contact-us-part-2 select{
+        background-color: transparent;
+    }
+    .swiper-sec{
+        padding: 2rem 0rem;
+    }
+    .reviwers-position{
+        font-size: 14px;
+    }
+    .landing-page-main-sec  .col-md-12{
+        padding: 0px;
+    }
+    .testimo-tit{
+        transform: translateX(0px);
+    }
+    .what-we-do-secondry-tit-1{
+        font-size: 25px;
+    }
+    .cont-img-what-we-do{
+        width: 66px;
+        height: 66px;
+    }
+    .wht-we-do-main-cont > *{
+        padding: 0.4rem 0rem 0.1rem 1rem;
+    }
+    .what-we-do-cont-waper{
+        padding: 0rem 0.6rem;
+    }
+    .wht-we-do-main-cont h4{
+        font-size: 20px;
+    }
+    .tit-wraper-1{
+        margin-left: 80px;
+    }
+    .h-w-w-main-tit{
+        font-family: "Nunito", sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        width: 80%;
+        margin: 0rem auto 2rem;
+        position: relative;
+    }
+    .h-w-w-card-cont p{
+        font-size: 14px;
+    }
+    .h-w-w-card-cont-1{
+        text-align: left;
+        width: 90%;
+        padding: 1rem ;
+    }
+    .h-w-w-card-cont-1 p{
+        font-size: 14px;
+    }
+    .h-w-w-card-cont{
+        text-align: right;
+        width: 90%;
+        padding: 1rem;
+    }
+    .work-we-work-sub-tit{
+        font-size: 12px;
+    }
+    .card-head{
+        justify-content: space-evenly;
+    }
+    .content-marketing-main-tit{
+        font-size: 20px;
+    }
+    .content-m-main-cont p{
+        font-size: 14px ;
+    }
+    .content-m-main-cont{
+        width: 100%;
+    }
+    .h-w-w-main-tit-1::before{
+        width: 58px;
+        height: 58px;
+        top: -100px;        
+    }
+    .what-we-do-main-img{
+        margin-bottom: 3rem;
+    }
+    .hub-btn::before{
+        width: 108%;
+        height: 118%;
+    }
+    .content-marketing-sec{
+        position: relative;
+        top: 0px;
+        padding: 6rem 0rem 1rem 0rem;
+        overflow: hidden;
+    }
+    .what-we-do-sec-1{
+        position: relative;
+        top: 0px;
+    }
+    .discover-part1-img-1, .discover-part1-img-2, .discover-part2-img-1, .discover-part2-img-2{
+        position: relative;
+        width: 300px;
+        height:  290px;
+        left: 0%;
+         transform: translateX(0%);
+    }
+    .discover-part-2{
+        grid-template-columns:100%;
+        padding: 0rem;
+    }
+    .discover-part1-img-2{
+        top: 0px;
+        left: 0px;
+        transform: translateX(0%);
+    }
+    .discover-us-sec{
+        position: relative;
+        top: 0px;
+    }
+    .discover-part2-img-1, .discover-part2-img-2{
+        top: 0px;
+    }
+    .discover-more-img-p1, .discover-more-img-p2{
+        display: grid;
+        place-content: center;
+    }
+    .footer-container{
+        position: relative;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .enter-email-input{
+        width: 233px;
+        height: 62px;
+    }
+    .subscrib-btn{
+        width: 233px;
+        height: 62px;
+    }
+    .contact-us-sec{
+        position: relative;
+        top: 0px;
+    }
+    .right-card-top-container{
+        display: grid;
+        padding: 2rem 0rem;
+
+    }
+    .footer-right-card{
+        width: 100%;
+    }
+    .footer-left-card{
+        display: grid;
+        place-content: center;
+        width: 90%;
+        margin: 0rem auto;
+    }
+    .footer-right-card-top-sec{
+        width: 90%;
+        margin: 0rem auto;
+        gap: 10px;
+    }
+    .footer-right-card-top-sec-1{
+        width: 90%;
+        margin: 0rem auto;
+        gap: 10px;
+        margin-top: 1rem;
+    }
+    .footer-quick-link{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 2rem 1rem;
+        margin: 0rem;
+    }
+    .copy-rights{
+        padding: 1rem 0rem;
+        font-size: 15px;
+    }
+    .footer-quick-col-2{
+        width: 100%;
+    }
+    .footer-quick-col-1{
+        width: 100%;
+    }
+    .footer-quick-col-3{
+        width: 100%;
+    }
+    .get-touch-w-us, .location-tit, .footer-quick-tit-1, .footer-quick-tit-2, .footer-quick-tit-3{
+        font-size: 20px;
+    }
+    .footer-quick-link a{
+        font-size: 16px;
+    }
+    .footer-ul li{
+        margin: 0.7rem 0rem;
+    }
+    .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12, .span13, .span14, .span15, .span16, .span17, .span18{
+        width: 50px;
+        height: 50px;
+    }
+    .serv-point-sec-container{
+        grid-template-columns: 100%;
+        padding: 1rem 0rem 3rem;
+    }
+    .service-detailed-main-para{
+        width: 80%;
+    }
+    .srv-detai-sec-contain{
+        grid-template-columns: 100%;
+    }
+    .service-detailed-main-img{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .serv-point-sec::before{
+        width: 309px;
+        height: 309px;
+    }
+    .contact-inner-tit{
+        font-size: 25px;
+        line-height: 39px;
+    }
+    .contact-card-sec{
+        padding: 1rem;
+    }
+    .banner-h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .social-sub-container{
+        grid-template-columns: 100%;
+    }
+    .social-media-sec-container{
+        width: 100%;
+        height: fit-content;
+    }
+    .social-media-sec{
+        padding: 3rem 0rem;
+    }
+    .social-media-icons{
+        width: 70%;
+        margin: 0rem auto;
+    }
+    .social-sub-container > div{
+        margin-top: 1rem;
+    }
+    .extra-cont-light p{
+        padding: 0rem;
+        text-align: justify;
+    }
+    .extra-cont-light{
+        grid-template-columns: 100%;
+        padding: 2rem 1rem;
+    }
+    .extra-cont-light .extra-cont-light-img{
+        margin: 1rem 0rem;
+    }
+    .extra-cont-dark{
+        grid-template-columns: 100%;
+        padding: 2rem 1rem;
+    }
+    .extra-cont-dark p{
+        padding: 0rem;
+        text-align: justify;
+    }
+    .extra-cont-dark .extra-cont-light-img{
+        margin:1rem 0rem;
+    }
+    .servi-point-sec-left-box p{
+        text-align: justify;
+    }
+    .service-detailed-small-tit{
+        text-align: center;
+    }
+    .contact-card-inside-cont{
+        width: 90%;
+    }
+    .faq-container{
+        max-width: 90%;
+    }
+    .servi-point-sec-left-box p{
+        font-size: 14px;
+    }
+    .faq-tit{
+        width: 90%;
+        margin: 0rem auto;
+    }
+    .service-carosoul-sec .swiper{
+        width: 300%;
+    }
+    .service-carosoul-cards{
+        width: 90%;
+    }
+    .service-carosoul-sec > p{
+        width: 80%;
+        font-size: 14px;
+    }
+    .service-carosoul-tit{
+        font-size: 30px;
+    }
+    .service-carosoul-sec{
+        overflow: hidden;
+    }
+    .bobule2{
+        left: 50px;
+        top: -200px;
+    }
+    .bobule3{
+        right: 50px;
+        top: -200px;
+    }
+    .rocket-boy{
+        top: 100px;
+    }
+    .bobule4{
+     top: -50px;
+    }
+    .bobule1{
+        top: -50px;
+    }
+    .case-study-container{
+        grid-template-columns: 100%;
+    }
+    .case-study-numbers{
+        grid-template-columns: 100%;
+        row-gap: 40px ;
+    }
+    .wht-we-do-main-cont{
+        /* padding-left: 4rem; */
+    }
+
+} 
+
+
+
+
+
+
+
+
+
+

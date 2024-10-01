@@ -1,0 +1,151 @@
+@media (max-width:1024px){
+    .service-card-btn::before{
+        right: 10%;
+    }
+    .hub-btn{
+        width: 163px;
+        height: 54px;
+    }
+    .discover-us-container{
+        padding: 3rem 1rem 16rem;
+    }
+    .discover-part1-img-1, .discover-part1-img-2, .discover-part2-img-1, .discover-part2-img-2{
+        width: 205px;
+        height: 290px;
+    }
+
+    .service-card-btn{
+        display: grid;
+        place-content: center;
+        padding: 0px;
+        width: 166px;
+        height: 62px;
+        margin: 10px 0px 0px;
+    }
+    .container-fluid{
+        max-width: 100%;
+    }
+    .how-we-work-container{
+        max-width: 90%;
+    }
+    .content-marketing-card{
+        width: 100%;
+    }
+    .footer-container{
+        max-width: 900px;
+        gap: 30px;
+    }
+    .swiper-sec{
+        overflow: hidden;
+    }
+    .container-2{
+        width: 900px;
+    }
+    .what-we-do-main-img img{
+        width: 100%;
+        height: auto;
+    }
+    .our-container-1{
+        width: 100%;
+    }
+    .service-card{
+        width: 100%;
+        padding: 41px 29px 0px;
+        height: 400px;
+    }
+    .what-we-do-sec-1{
+        overflow: hidden;
+    }
+    .col-md-6{
+        padding: 0rem;
+    }
+    .our-container{
+        width: 900px;
+    }
+    .header-sec{
+        width: 100%;
+    }
+    .home-page-first-sec{
+        width: 100%;
+        transform: translate3d(-512px, 3000px , 0px) scale3d(1 , 2 , 1);
+        animation: anding-lpage-slide1 1.6s ease-in-out 2.8s forwards;
+    }
+    @keyframes anding-lpage-slide1{
+        99%{
+            transform: translate3d(-512px , 0px , 0px) scale3d(1 , 1 , 1);
+        }
+        100%{
+            transform: translate3d(-512px , 0px , 0px) scale3d(1 , 1 , 1);
+        }
+    }
+
+    .sev-card-cont{
+        text-align: justify;
+    }
+
+    .fist-sec-main-tit *{
+        font-size: 40px;
+    }
+    .srv-card-icon{
+        width: 100px;
+        height: 100px;
+    }
+    .content-m-main-cont{
+        width: 370px;
+    }
+    .footer-right-card{
+        width: 602px;
+    }
+    .footer-left-card{
+        width: 300px;
+    }
+    .nav-bar{
+        gap: 30px;
+        margin-left: 0rem;
+    }
+    .serv-banner{
+        height: 400px;
+    }
+    .banner-h1{
+        font-size: 60px;
+    }
+    .serv-point-sec-container{
+        width: 100%;
+    }
+    .servi-point-sec-left-box p{
+        font-size: 20px;
+    }
+    .srv-sec-tit{
+        font-size: 34.5px;
+        line-height: 43px;
+    }
+    .serv-point-sec{
+        padding: 0rem 0rem;
+    }
+    .service-detailed-img{
+        width: 80px;
+    }
+    .service-carosoul-cards{
+        width: 277px;
+        padding: 2rem 1rem;
+    }
+    .service-carosoul-cards-tit{
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+    .social-media-sec-container{
+        width: 100%;
+    }
+    .social-sub-container > div{
+        padding: 0rem 2rem;
+    }
+    .bobules{
+        width: 100px;
+    }
+    .bobule3{
+        right: 120px;
+    }
+    .bobule2{
+        left: 120px;
+    }
+}
