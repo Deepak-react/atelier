@@ -548,11 +548,12 @@ ul {
 
 .nav-bar {
     display: flex;
-    gap: 40px;
+    gap: 95px;
     align-items: center;
-    margin: 0px;
-    margin-left: 70px;
+    margin: 0px 1rem;
     position: relative;
+    font-weight: 800;
+    
 }
 
 .nav-bar * {
@@ -612,7 +613,7 @@ ul {
 .nav-pages::before {
     height: 14px;
     width: 14px;
-    background: url("../src/assets/home/nav-pages-icon.svg");
+    /* background: url("../src/assets/home/nav-pages-icon.svg"); */
     background-size: cover;
     right: -20px;
     top: 50%;
@@ -2610,4 +2611,78 @@ section .service-btn-cmc {
     font-weight: 600;
     line-height: 52px;
     
+}
+
+
+.freelancer-hub{
+    width: auto;
+    height: 17rem;
+    position: relative; 
+    border-radius: 10px 10px 10px 10px;
+    margin: 70px;
+    opacity: 1;
+    display: flex;
+     background: linear-gradient(111.05deg, #E9F7FF 9.66%, #FFDBD5 57.52%, #FFF3CA 103.42%);
+;
+  }
+  .freelancer-hub-sec {
+    position: relative;
+    background-color: white;
+    /* overflow-x: hidden; */
+    color: #000000;
+}
+
+.freelancer-hub-content{
+    width: 45%;
+    /* height: 33%; */
+    /* margin-left: 50rem; */
+    font-weight: 500;
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
+    padding-top: 3.5rem;
+    flex: 1;
+    margin: 0 7rem 0 0;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: flex-start; */
+    
+}
+
+.freelancers-hub-content-highlight{
+    color: #5956E8;
+    
+}
+
+.freelancers-hub-button{
+border-radius: 7px 7px 7px 7px;
+opacity: 1px;
+font-family: "Nunito", sans-serif;
+font-size: 9px;
+font-weight: 500;
+background: #FFDC60;
+box-shadow: 0px 4px 4px 0px #2929305C;
+display:flex;
+justify-content: center;        /* Center vertically */
+align-items: center;
+text-decoration: none;
+/* flex-direction: column; */
+width: 6rem;
+height: 2rem;
+}
+
+.freelancers-hub-vector{
+    margin-left: 3%;
+}
+
+.freelancers-hub-imageDiv{
+    height: auto;
+    width: auto;
+    flex: 2;
+
+}
+
+.freealncers-hub-image{
+ height:13rem;
+ width: 25rem;
+ margin: 1.5rem 0 0 7rem;
 }

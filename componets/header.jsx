@@ -33,12 +33,13 @@ function Header(){
                   <li><a href="/#about-us">About</a></li>
                   <li> <a href="/#services">Services</a></li>
                   <li className="nav-pages"><a href="/#services">Case study</a></li>
+                  <li> <a href="/#freelancers-hub">Careers</a></li>
                   <li><a href="/#blogs">Blogs</a></li>
                </ul>
 
-               <a className="hub-btn" href="#">
+               {/* <a className="hub-btn" href="#">
                freelancer Hub
-               </a>
+               </a> */}
             </header>
          </div>
       </div>
